@@ -1,3 +1,6 @@
+"""What are the non-obvious county abbreviations, for the Texas QSO
+Party?"""
+
 with open('TX_county_abbrevs.txt') as fh:
     for line in fh:
         try:
